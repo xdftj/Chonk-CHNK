@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #3a3d98, #6a5acd, #ff4500);
+    color: blue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #ff4500, #6a5acd);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.cta-button {
+    background: white;
+    color: #6a5acd;
+}
+
+.cta-button:hover {
+    background: #e0e0e0;
+}
+
+.buy-button {
+    background: gold;
+    color: black;
+    border: 2px solid white;
+}
+
+.buy-button:hover {
+    background: white;
+    color: gold;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: gold;
+}
+
+/* Game Canvas */
+#gameCanvas {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ff4500;
+    background: #f4f4f4;
+}
+
+#score {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: gold;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #6a5acd;
+    color: white;
+}
